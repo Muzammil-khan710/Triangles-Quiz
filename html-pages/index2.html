@@ -8,6 +8,74 @@
 </head>
 <body>
     <h1>Triangle Quiz</h1>
-    <form class=""></form>
+    <form class="quiz">
+        <div class="question">
+            <p>A triangle whose all sides are equal is called as ?</p>
+            <label>
+                <input type="radio" name="question-1" value="Isosceles Triangle" >Isosceles Triangle
+            </label>
+            <label >
+                <input type="radio" name="question-1" value="Equilateral Triangle">Equilateral Triangle
+            </label>
+            <label>
+                <input type="radio" name="question-1" value="Scalene Triangle">Scalene Triangle
+            </label>
+        </div>
+
+        <div class="question">
+            <p>An Isosceles Triangle have?</p>
+            <label>
+                <input type="radio" name="question-2" value="Two Sides Equal">Two Sides Equal
+            </label>
+            <label>
+                <input type="radio" name="question-2" value="Two Angles Equal">Two Angles Equal
+            </label>
+            <label>
+                <input type="radio" name="question-2" value="Both">Both
+            </label>
+        </div>
+
+        <div class="question">
+            <p>An angle greater than 90°</p>
+            <label>
+                <input type="radio" name="question-3" value="Acute Angle">Acute Angle
+            </label>
+            <label>
+                <input type="radio" name="question-3" value="Right Angle">Right Angle
+            </label>
+            <label>
+                <input type="radio" name="question-3" value="Obtuse Angle">Obtuse Angle
+            </label>
+        </div>
+
+        <div class="question">
+            <p>Which is the longest side in a Right Angled Triangle</p>
+            <label>
+                <input type="radio" name="question-4" value="Base">Base
+            </label>
+            <label>
+                <input type="radio" name="question-4" value="Perpendicular">Perpendicular
+            </label>
+            <label>
+                <input type="radio" name="question-4" value="Hypotenuse">Hypotenuse
+            </label>
+        </div>
+
+        <div class="question">
+            <p>What is the value of each angle in Equilateral Triangle?</p>
+            <label>
+                <input type="radio" name="question-5" value="70°">70°
+            </label>
+            <label>
+                <input type="radio" name="question-5" value="60°">60°
+            </label>
+            <label>
+                <input type="radio" name="question-5" value="90°">90°
+            </label>
+        </div>
+    </form>
+    <button id="answer-btn">Submit</button>
+    <div class="output"></div>
+    <script src="/JS/index2.js"></script>
 </body>
 </html>
