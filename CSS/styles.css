@@ -1,0 +1,113 @@
+
+:root {
+  --primary-color: #bcdf5e;
+  --primary-box-shadow: 0 30px 40px 0 #ecf1bc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #effee9;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 7rem auto;
+}
+
+
+.home-container {
+  margin: 1.2rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 3px solid #e0e79f;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+  
+.home-container:hover,
+.home-container:focus,
+.home-container:active {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  box-shadow: var(--primary-box-shadow);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+input {
+  margin: 1rem;
+  /* width: 20%; */
+  /* height: 2rem; */
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+}
+
+button {
+  width: 10%;
+  height: 2rem;
+  border-radius: 10px ;
+  outline: none;
+  margin: 1rem;
+  /* text-align: center; */
+}
+
+label {
+  font-size: 20px;
+}
+
+/* h1 {
+  font-size: 50px;
+  margin-bottom: 2rem;
+} */
+
+#output {
+  font-size: 20px;
+}
+
+
+.question {
+  margin: 2rem auto;
+  background: rgb(241 241 241 / 38%);
+  font-size:larger;
+  padding: 1rem 0;
+  border-radius: 0.7rem;
+  box-shadow: 9.91px 9.91px 15px #eff2f4, -9.91px -9.91px 15px #fafafa;
+}
+
+.quiz {
+  margin: 2rem auto;
+  width: 70%;
+  text-align: center;
+}
+
+.output {
+  font-size: 40px;
+  margin-bottom: 4rem;
+}
+ 
