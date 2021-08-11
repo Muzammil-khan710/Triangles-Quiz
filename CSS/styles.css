@@ -20,6 +20,14 @@ a {
   text-decoration: none;
 }
 
+.navigation {
+  background-color: var(--primary-color);
+  color: black;
+  /* height: 1rem; */
+  padding: 2rem;
+  font-size: 60px;
+}
+
 .home {
   display: flex;
   align-items: center;
@@ -135,3 +143,13 @@ label {
   margin-bottom: 4rem;
 }
  
+footer {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 2rem;
+
+}
+
+.image {
+  height: 30px;
+}
