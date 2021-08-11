@@ -13,6 +13,8 @@
 html {
   background-color: #effee9;
   text-align: center;
+  padding: 0;
+  
 }
 
 
@@ -25,7 +27,8 @@ a {
   color: black;
   /* height: 1rem; */
   padding: 2rem;
-  font-size: 60px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .home {
@@ -152,4 +155,14 @@ footer {
 
 .image {
   height: 30px;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  list-style: none;
+  padding-inline-start: 1rem;
+  display: inline;
 }
