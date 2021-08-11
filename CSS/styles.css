@@ -68,6 +68,30 @@ input {
   outline: none;
 }
 
+.angle-input {
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+}
+
+.sides {
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+}
+
+.input {
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+}
+
 button {
   width: 10%;
   height: 2rem;
