@@ -10,7 +10,7 @@ function calculateSquaresOfSides(p, b) {
 function checkHypotenuse() {
     const sumOfSquares = calculateSquaresOfSides(Number(sides[0].value), Number(sides[1].value ))
     const hypotenuseLength = Math.sqrt(sumOfSquares);
-    outputDiv.innerText =  `The length of Hypotenuse is ${hypotenuseLength} cm`
+    outputDiv.innerText =  `The length of Hypotenuse is ${hypotenuseLength} cm.`
 }
 
 

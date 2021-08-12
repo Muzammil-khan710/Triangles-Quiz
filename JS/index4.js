@@ -10,7 +10,7 @@ function calculateProductOfSides(b, h) {
 function calculateArea() {
     const productOfSides = calculateProductOfSides(Number(sides[0].value), Number(sides[1].value))
     const area  = productOfSides * 1/2;
-    outputDiv.innerText = "The area of triangle is" + area;
+    outputDiv.innerText = "The area of triangle is " + area + " cm square units." ;
 }
 
 areaBtn.addEventListener("click", calculateArea)

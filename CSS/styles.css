@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 
 :root {
   --primary-color: #bcdf5e;
-  --primary-box-shadow: 0 30px 40px 0 #ecf1bc;
+  --primary-box-shadow: 0 5px 5px 0 #124701;
 }
 
 * {
@@ -13,13 +14,20 @@
 html {
   background-color: #effee9;
   text-align: center;
-  padding: 0;
-  
+  height: 100%;
+  font-family: 'Padauk', sans-serif;
 }
 
 
 a {
   text-decoration: none;
+  font-size: larger;
+  color: black;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: underline;
 }
 
 .navigation {
@@ -27,7 +35,7 @@ a {
   color: black;
   /* height: 1rem; */
   padding: 2rem;
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: none;
 }
 
@@ -57,7 +65,7 @@ a {
 .home-container:hover,
 .home-container:focus,
 .home-container:active {
-  color: var(--primary-color);
+  color: darkgreen);
   border-color: var(--primary-color);
   box-shadow: var(--primary-box-shadow);
 }
@@ -82,6 +90,7 @@ input {
 .angle-input {
   height: 2rem;
   margin: 1rem;
+  border: 1px solid green;
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -90,6 +99,7 @@ input {
 .sides {
   height: 2rem;
   margin: 1rem;
+  border: 1px solid green;
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -98,6 +108,7 @@ input {
 .input {
   height: 2rem;
   margin: 1rem;
+  border: 1px solid green;
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -106,11 +117,14 @@ input {
 button {
   width: 10%;
   height: 2rem;
+  border: 2px solid;
+  color: green;
   border-radius: 10px ;
   outline: none;
   margin: 1rem;
   /* text-align: center; */
 }
+
 
 label {
   font-size: 20px;
@@ -146,15 +160,27 @@ label {
   margin-bottom: 4rem;
 }
  
-footer {
-  background-color: var(--primary-color);
-  color: black;
-  padding: 2rem;
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:80px;   
+  background: var(--primary-color);
+  padding: 1rem;
 
+}
+
+.footer-triangle {
+  bottom:0;
+  width:100%;
+  height:80px;   
+  background: var(--primary-color);
+  padding: 1rem;
 }
 
 .image {
   height: 30px;
+  /* width: 2rem; */
 }
 
 ul {
@@ -165,4 +191,10 @@ li {
   list-style: none;
   padding-inline-start: 1rem;
   display: inline;
+}
+
+#output {
+  padding: 1rem;
+  font-size: 30px;
+  color: darkgreen;
 }

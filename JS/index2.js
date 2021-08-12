@@ -14,7 +14,7 @@ function scoreCalculator() {
         }
         index++;
     }
-    output.innerText = "Your score is " + score;
+    output.innerText = "Your score is " + score +".";
 
 }
 
