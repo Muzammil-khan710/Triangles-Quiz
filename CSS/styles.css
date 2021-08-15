@@ -165,11 +165,9 @@ label {
 }
 
 .footer {
-  position:absolute;
-  bottom:0;
-  width:100%; 
-  background: var(--primary-color);
-  padding: 1.5rem;
+  margin-top: 120px;
+  background-color: var(--primary-color);
+  padding: 1.3rem;
 }
 
 .footer-triangle {
